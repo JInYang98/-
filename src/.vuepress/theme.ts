@@ -14,13 +14,13 @@ export default hopeTheme({
      "disable": 禁用深色模式
      # 全局变量
      */
-    darkmode: "enable",
+    darkmode: "toggle",
     author: {
         name: "锦洋",
         url: "https://gitee.com/jinYang98/jin-yang-note/",
     },
 
-    iconAssets: "iconfont",
+    iconAssets: "//at.alicdn.com/t/c/font_3803930_on3zvao2ees.css",
     // logo: "/logo.jpg",
 
     // 默认为 GitHub. 同时也可以是一个完整的 URL
@@ -42,10 +42,10 @@ export default hopeTheme({
          * 中文配置
          */
         "/": {
-            // navbar
+            // 当行条
             navbar: zhNavbar,
 
-            // sidebar
+            // 侧边栏
             sidebar: zhSidebar,
 
             footer: "默认页脚",
@@ -67,7 +67,7 @@ export default hopeTheme({
     },
 
     plugins: {
-       // 是否默认启用评论功能。
+        // 是否默认启用评论功能。
         comment: {
             /**
              * Using Waline
