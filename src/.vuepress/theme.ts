@@ -17,7 +17,7 @@ export default hopeTheme({
     darkmode: "enable",
     author: {
         name: "锦洋",
-        url: "https://gitee.com/jinYang98",
+        url: "https://gitee.com/jinYang98/jin-yang-note/",
     },
 
     iconAssets: "iconfont",
@@ -30,8 +30,10 @@ export default hopeTheme({
     repoLabel: "Gitee",
     // 是否在导航栏内显示仓库链接，默认为 `true`
     repoDisplay: true,
-
-    docsDir: "demo/theme-docs/src",
+    // 仓库分支
+    docsBranch: "master",
+    //仓库相对路径
+    docsDir: "src",
 
     pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
 
@@ -65,9 +67,7 @@ export default hopeTheme({
     },
 
     plugins: {
-        // If you don’t need comment feature, you can remove following option
-        // The following config is for demo ONLY, if you need comment feature, please generate and use your own config, see comment plugin documentation for details.
-        // To avoid disturbing the theme developer and consuming his resources, please DO NOT use the following config directly in your production environment!!!!!
+       // 是否默认启用评论功能。
         comment: {
             /**
              * Using Waline

@@ -23,7 +23,7 @@ export const zhNavbar = navbar([
     ],
   },
   {
-    text: "V2 文档",
+    text: "搭建文档",
     icon: "note",
     link: "https://vuepress-theme-hope.github.io/v2/zh/",
   },
