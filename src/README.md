@@ -11,11 +11,11 @@ actions:
     type: primary
     
   - text: 我的笔记
-    link: /codeNotes/CodeNote
+    link: /codeNotes
     color: red
   
   - text: 我的问题
-    link: /problems/Problem
+    link: /problems
     
   - text: 开源项目
     link: /resources/projects/Project
