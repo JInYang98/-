@@ -1,5 +1,5 @@
 import {defineUserConfig} from "vuepress";
-import {searchPlugin} from '@vuepress/plugin-search'
+import {searchPlugin} from '@vuepress/plugin-search';
 import theme from "./theme.js";
 
 
@@ -12,7 +12,7 @@ export default defineUserConfig({
             title: "个人知识库",
             description: "锦洋の个人知识库",
             // 设置favicon
-            head: [['link', {rel: 'icon', herf: '/favicon.ico'}]]
+            head: [['link', {rel: 'icon', href: '/favicon.ico'}]]
         }
     },
     plugins: [
@@ -26,7 +26,7 @@ export default defineUserConfig({
             // 排除首页
             isSearchable: (page) => page.path !== '/',
             // 允许搜索 Frontmatter 中的 `tags`
-            getExtraFields: (page) => page.frontmatter.tags ?? [],
+            // getExtraFields: (page) => page.frontmatter.tags ?? [],
             hotKeys: ['Ctrl', 'r']
         }),
     ],
