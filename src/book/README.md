@@ -1,6 +1,6 @@
 ---
 title: 我的书籍
-icon: book
+icon: shuji
 ---
 ## 书籍
 
