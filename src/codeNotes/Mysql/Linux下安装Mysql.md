@@ -6,7 +6,7 @@
 
 选择linux 通用版 然后随便算则一个（别选中mysql测试工具就行）
 
-![image-20220619203550985](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220619203550985.png)
+![image-20220619203550985](/codeNotes/Mysql/img/image-20220619203550985.png)
 
 
 
