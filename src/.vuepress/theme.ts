@@ -20,7 +20,7 @@ export default hopeTheme({
         url: "https://gitee.com/jinYang98/jin-yang-note/",
     },
 
-    iconAssets: "//at.alicdn.com/t/c/font_3803930_fgt387wz8y5.css",
+    iconAssets: "//at.alicdn.com/t/c/font_3803930_oy7k7q2ruda.css",
     // logo: "/logo.jpg",
 
     // 默认为 GitHub. 同时也可以是一个完整的 URL

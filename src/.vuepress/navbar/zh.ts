@@ -12,12 +12,12 @@ export const zhNavbar = navbar([
             {
                 text: "项目",
                 icon: "xiangmu",
-                link: '/projects/Project'
+                link: '/projects'
             },
             {
                 text: "书籍",
                 icon: "shuji",
-                link: "/books/Book"
+                link: "/book"
             },
         ],
     },
