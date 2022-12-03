@@ -8,7 +8,6 @@ export const zhNavbar = navbar([
     {
         text: "资源宝库",
         icon: "ziyuan",
-        prefix: "/resources",
         children: [
             {
                 text: "项目",
