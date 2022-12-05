@@ -20,7 +20,7 @@ export default hopeTheme({
         url: "https://gitee.com/jinYang98/jin-yang-note/",
     },
 
-    iconAssets: "//at.alicdn.com/t/c/font_3803930_oy7k7q2ruda.css",
+    iconAssets: "//at.alicdn.com/t/c/font_3803930_t7b711rus4h.css",
     logo: "/logo.png",
 
     // 全屏按钮
