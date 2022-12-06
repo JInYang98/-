@@ -6,8 +6,7 @@
 
 选择linux 通用版 然后随便算则一个（别选中mysql测试工具就行）
 
-![image-20220619203550985](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220619203550985.png)
-
+![image-20220619203550985](/codeNotes/Mysql/Liunx下安装Mysql/image-20220619203550985.png)
 
 
 ## 2: 放入Linux 指定目录下解压
@@ -17,6 +16,7 @@
 ````shell
 tar -xf mysql.tar.xz
 ````
+
 
 ## 3：重命名一下文件
 
@@ -84,7 +84,7 @@ cd /usr/local/mysql/bin
 
 安装完成之后一定记得复制初始化密码
 
-![image-20220619211159796](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220619211159796.png)
+![image-20220619211159796](/codeNotes/Mysql/Liunx下安装Mysql/image-20220619211159796.png)
 
 ##  9：添加mysqld服务到系统 （设置9,10步之后系统可以开机自启）
 
@@ -108,7 +108,7 @@ service mysql start
 
 看到这样说明启动成功了
 
-![image-20220619211531997](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220619211531997.png)
+![image-20220619211531997](/codeNotes/Mysql/Liunx下安装Mysql/image-20220619211531997.png)
 
 ## 12：将mysql添加到命令服务
 

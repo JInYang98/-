@@ -20,6 +20,10 @@ export default hopeTheme({
         url: "https://gitee.com/jinYang98/jin-yang-note/",
     },
 
+    logo: "/logo.png",
+
+    // 全屏按钮
+    fullscreen: true,
     iconAssets: "//at.alicdn.com/t/c/font_3803930_cpfy182bxy.css",
     // logo: "/logo.jpg",
 
@@ -48,14 +52,13 @@ export default hopeTheme({
             // 侧边栏
             sidebar: zhSidebar,
 
-            footer: "默认页脚",
+            footer: "锦洋的学习笔记",
 
             displayFooter: true,
 
             // page meta
             metaLocales: {
                 editLink: "在 gitee 上编辑此页",
-
             },
         },
     },
@@ -65,8 +68,33 @@ export default hopeTheme({
             "/demo/encrypt.html": ["1234"],
         },
     },
-
+    // 主题色
+    themeColor: {
+        blue: "#2196f3",
+        red: "#f26d6d",
+        green: "#3eaf7c",
+        orange: "#fb9b5f",
+    },
     plugins: {
+        // 在MD文件中启用的组件
+        components: [
+            // 为站点提供了在MD文档中自定义颜色的徽章
+            "Badge",
+            // 为站点提供了在MD文档中加载B站视频的功能，但是不建议使用
+            "BiliBili",
+            // 为站点提供了在MD文档中加载PDF阅读器的功能，但是不建议使用
+            // 原因一：PDF书籍较大，上传到码云后会大量占用码云空间
+            // 原因二：当PDF阅读器较多的时候，将MD文档渲染成HTML页面比较耗费性能，使页面加载速度变慢
+            "PDF",
+        ],
+        // 代码复制
+        copyCode: {
+            copy: '复制',
+            // 纯净模式
+            pure: true,
+            // 是否在移动端展示
+            showInMobile: true
+        },
         // 是否默认启用评论功能。
         comment: {
             /**
@@ -118,7 +146,17 @@ export default hopeTheme({
             tabs: true,
             vPre: true,
             vuePlayground: true,
+
         },
+        // 打开博客功能
+        blog: {
+            // 在文章列表页面自动提取文章的摘要进行显示
+            autoExcerpt: true,
+        },
+        // 开启git实现编辑此页面-最后更新时间-贡献者功能
+        git: true,
+        // 关闭sitemap插件
+        sitemap: false,
 
         pwa: {
             favicon: "/favicon.ico",

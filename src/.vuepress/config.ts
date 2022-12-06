@@ -1,10 +1,13 @@
 import {defineUserConfig} from "vuepress";
 import {searchPlugin} from '@vuepress/plugin-search';
 import theme from "./theme.js";
+import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
+import { getDirname, path } from '@vuepress/utils'
 
+const __dirname = getDirname(import.meta.url)
 
 export default defineUserConfig({
-    base: "/",
+    base: "/JinYangNote",
     port: 9090,
     locales: {
         '/': {
@@ -16,6 +19,12 @@ export default defineUserConfig({
         }
     },
     plugins: [
+        // 根据组件文件或目录自动注册 Vue 组件。
+        registerComponentsPlugin({
+            // 配置项
+            componentsDir: path.resolve(__dirname, './components'),
+        }),
+        // 全局搜索
         searchPlugin({
             // 配置项
             locales: {
