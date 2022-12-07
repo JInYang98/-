@@ -1,6 +1,5 @@
 ---
 title: 软件工具
-icon: gongju
 ---
 
 # 1：插件 #

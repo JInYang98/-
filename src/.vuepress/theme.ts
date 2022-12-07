@@ -24,8 +24,8 @@ export default hopeTheme({
 
     // 全屏按钮
     fullscreen: true,
+    // 图标样式
     iconAssets: "//at.alicdn.com/t/c/font_3803930_cpfy182bxy.css",
-    // logo: "/logo.jpg",
 
     // 默认为 GitHub. 同时也可以是一个完整的 URL
     repo: "https://gitee.com/jinYang98/jin-yang-note",
@@ -65,7 +65,7 @@ export default hopeTheme({
 
     encrypt: {
         config: {
-            "/demo/encrypt.html": ["1234"],
+            "/": ["1234"],
         },
     },
     // 主题色
@@ -74,6 +74,7 @@ export default hopeTheme({
         red: "#f26d6d",
         green: "#3eaf7c",
         orange: "#fb9b5f",
+        purple: "#ae36ca",
     },
     plugins: {
         // 在MD文件中启用的组件
@@ -89,7 +90,6 @@ export default hopeTheme({
         ],
         // 代码复制
         copyCode: {
-            copy: '复制',
             // 纯净模式
             pure: true,
             // 是否在移动端展示

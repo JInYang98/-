@@ -12,15 +12,15 @@ actions:
     type: primary
     
   - text: 我的笔记
-    link: /codeNotes
+    link: /代码笔记
     type: primary
   
   - text: 我的问题
-    link: /problems
+    link: /我的问题
     type: primary
     
   - text: 开源项目
-    link: /resources/projects/Project
+    link: /我的项目
     type: primary
 
 ### 仓库 ###
